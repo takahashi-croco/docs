@@ -1,7 +1,7 @@
 <div class='article-menu'>
   <ul>
     <li>
-      <a href="#basic">Tutorial - basic</a> 
+      <a href="#basic">チュートリアル - 基本</a> 
       <ul>
         <li>
           <a href="#file-structure">File structure</a>
@@ -51,9 +51,10 @@
 
 <a name='basic'></a>
 
-# Tutorial - basic
+# チュートリアル - 基本
 
-Throughout this tutorial, we'll walk you through the creation of an application with a simple registration form from the ground up. The following guide is to provided to introduce you to Phalcon framework's design aspects.
+この最初のチュートリアルでは、簡単な登録フォームのアプリケーションの作成を、基礎から一歩ずつ進めます。
+次のガイドでは、Phalconフレームワークの設計面をご紹介します。
 
 This tutorial covers the implementation of a simple MVC application, showing how fast and easy it can be done with Phalcon. This tutorial will get you started and help create an application that you can extend to address many needs. The code in this tutorial can also be used as a playground to learn other Phalcon specific concepts and ideas.
 
@@ -63,13 +64,15 @@ This tutorial covers the implementation of a simple MVC application, showing how
     </p>
 </div>
 
-If you just want to get started you can skip this and create a Phalcon project automatically with our [developer tools](/[[language]]/[[version]]/devtools-usage). (It is recommended that if you have not had experience with to come back here if you get stuck)
+とにかく始めたいのであれば、このガイドをスキップして、[デベロッパーツール](/[[language]]/[[version]]/devtools-usage) を使ってPhalconプロジェクトを自動的に作成することができます。
+(あなたが立ち往生した場合、ここに戻って来ると良いでしょう)
 
-The best way to use this guide is to follow along and try to have fun. You can get the complete code [here](https://github.com/phalcon/tutorial). If you get hung-up on something please visit us on [Discord](https://phalcon.link/discord) or in our [Forum](https://phalcon.link/forum).
+このガイドを使用する最善の方法は、一緒に楽しく進めることです。完全なコードは[ここ](https://github.com/phalcon/tutorial)で取得できます。
+If you get hung-up on something please visit us on [Discord](https://phalcon.link/discord) or in our [Forum](https://phalcon.link/forum).
 
 <a name='file-structure'></a>
 
-## File structure
+## ファイル構成
 
 A key feature of Phalcon is it's loosely coupled, you can build a Phalcon project with a directory structure that is convenient for your specific application. That said some uniformity is helpful when collaborating with others, so this tutorial will use a "Standard" structure where you should feel at home if you have worked with other MVC's in the past.   
 
